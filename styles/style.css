@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+nav {
+    background-color: blue;
+    height: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li, a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
 .hero {
     text-align: center;
     font-size: 28px;
